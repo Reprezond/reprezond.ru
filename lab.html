@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <title>Задания</title>
+</head>
+
+<body>
+
+    <main>
+
+        <header class="backgroundHeader">
+            <nav>
+                <a class="headerUrl" href="index.html">Главная</a>
+                <a class="headerUrl" href="lab.html">Задания</a>
+				<a class="headerUrl" href="lab3.html">Лаб.3</a>
+            </nav>
+        </header>
+        <br>
+        <h1>Задание 1. Построение таблиц</h1>
+        <table class="tableOne">
+            <tr>
+                <td colspan="5"></td>
+            </tr>
+            <tr>
+                <td rowspan="3"></td>
+                <td></td>
+                <td rowspan="3"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="3"></td>
+                <td rowspan="3"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <br>
+        <hr><br>
+        <table class="tableOne">
+            <tr>
+                <td class="colspan tableTwo" colspan="8"></td>
+            </tr>
+            <tr>
+                <td class="rowspan tableTwo" rowspan="6"></td>
+                <td class="colspan tableTwo" colspan="6"></td>
+                <td class="rowspan tableTwo" rowspan="6"></td>
+            </tr>
+            <tr>
+                <td class="rowspan tableTwo" rowspan="4"></td>
+                <td class="colspan tableTwo" colspan="4"></td>
+                <td class="rowspan tableTwo" rowspan="4"></td>
+            </tr>
+
+            <tr>
+                <td class="rowspan tableTwo" rowspan="2"></td>
+                <td bgcolor="red"></td>
+                <td bgcolor="blue"></td>
+                <td class="rowspan tableTwo" rowspan="2"></td>
+            </tr>
+            <tr>
+                <td bgcolor="green"></td>
+                <td bgcolor="yellow"></td>
+            </tr>
+            <tr>
+                <td class="colspan tableTwo" colspan="4"></td>
+            </tr>
+            <tr>
+                <td class="colspan tableTwo" colspan="6"></td>
+            </tr>
+            <tr>
+                <td class="colspan tableTwo" colspan="8"></td>
+            </tr>
+        </table>
+        <h1>Задание 2. Построение форм</h1>
+    <form>
+    <label for="fam">Фамилия</label>
+    <input type="text" id="fam" name="fam">
+    <label for="inicial">Инициалы</label>
+    <input type="text" id="inicial" name="inicial">
+    <label for="pass">Пароль</label>
+    <input type="text" id="pass" name="pass">
+    <label for="mail">Адрес получателя</label>
+    <input type="email" id="mail" name="mail">
+    <label for="count">Количество</label>
+    <input type="number" id="count" name="count">
+    <label>Тип</label> 
+    <select>
+        <option>Куриные</option>
+        <option>Перепелиные</option>
+    </select>
+    <select>
+        <option>Отборные</option>
+        <option>С2</option>
+        <option>С3</option>
+    </select>
+    <label for="dostavka">Доставка</label>
+    <input type="radio" name="name" value="p" id="dostavka">Почтой
+    <input type="radio" name="name" value="e" id="dostavka">Электронно
+    <input type="radio" name="name" value="c" id="dostavka">Курьером
+    <label for="naklad">Требуется накладная</label>
+    <input type="checkbox" id="naklad" name="naklad">
+    <label for="dop">Дополнительная информация</label>
+    <textarea rows="3" id="dop" name="dop info"></textarea><br>
+    <div class="button1">
+    <button type="submit">Заказать</button>
+    <button type="reset">Отменить</button>
+    </div>
+    </form>
+	
+	<br>
+	
+    <form>
+        <label for="log">Логин</label>
+        <input type="text" name="login" id="log">
+        <label for="pass2">Пароль</label>
+        <input type="password" name="pass2" id="pass2">
+        <label for="url">Url-адрес сайта</label>
+        <input type="url" name="url" id="url">
+        <label for="name_site">Название сайта</label>
+        <input type="text" name="name_site" id="name_site">
+        <label>Описание сайта</label> <textarea rows="5"></textarea>
+        <label>Тема сайта</label>
+        <select>
+            <option>Не выбрано</option>
+            <option>Спорт</option>
+            <option>Развлечения</option>
+        </select>
+        <label for="file">Баннер 88х31</label>
+        <input type="file" name="img" id="file" value="Обзор">
+         <div class="button1">
+        <button type="submit">Отправить</button>
+        <button type="reset">Отменить</button>
+        </div>
+    </form><br>
+		
+		
+        <div>
+            <h1>Задание 3. Построение таблиц</h1>
+            <h1 class="blue">Таблицы в HTML</h1>
+            <p class="blueText">Одним из наиболее мощных и широко применяемых в <b>HTML<b> средств являются
+                        <i>таблицы</i>.</p>
+            <div class="yellowAndGrey">
+                <p2 class="yellow">Понятие табличного представления данных не нуждается в дополнительном пояснении.</p2>
+                <p2 class="grey">В HTML таблицы используются не только традиционно, как метод представления данных, но
+                    и как средство форматирования Web-страниц.</p2>
+            </div>
+            <h2 class="Windu">Создание простейших HTML-таблиц</h2>
+            <p class="info">
+                <p2 class="WinduBack"><i>Описание</i></p2> <ins>таблиц</ins> <ins>должно</ins> располагаться внутри
+                раздела документа &lt;BODY&gt;.
+            </p>
+            <p align="center">Каждая <a href="#">таблица</a> должна НАЧИНАЕТСЯ тэгом &lt;TABLE&gt; и завершаться тэгом
+                &lt;/TABLE&gt;.</p>
+            <p class="greyText"><i class="blue">Каждая</i> строка начинается тэгом &lt;TR&gt; (Table Row) и завершается
+                тэгом &lt;TR&gt;. <i class="red">Отдельная</i> ячейка в строке обрамляется парой тегов &lt;TD&gt;> и
+                &lt;TD&gt; (Table Data) или &lt;TH&gt; и &lt;TH&gt; (Table Header)</p>
+            <p class="right">Таблица 1</p>
+            <p class="math">Математические выражения</p>
+            <table class="workThree">
+                <tr>
+                    <td class="fieldOne">Поле 1</td>
+                    <td class="fieldTwo">Поле 2</td>
+                    <td class="fieldThree">Поле 3</td>
+                    <td class="fieldFour">Поле 4</td>
+                    <td class="fieldFive">Поле 5</td>
+                </tr>
+                <tr class="blueChild">
+                    <td>
+                        (a+b)<sup>2</sup>
+                    </td>
+                    <td>
+                        a<sup>2</sup>-b<sup>2</sup>
+                    </td>
+                    <td>
+                        (a+b)<sup>3</sup>
+                    </td>
+                    <td>
+                        A<sub>1</sub>+A<sub>2</sub>+...A<sub>i</sub>
+                    </td>
+                    <td>
+                        y=x<sup>2</sup>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,246 @@
+main {
+    background-color: rgba(255, 255, 255);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+body {
+    background-image: url(../photos/main.jpg);
+}
+
+.backgroundHeader {
+    background-image: url(../photos/header.jpg);
+    width: 100%;
+    height: 100px;
+    
+}
+
+.headerUrl {
+    padding-right: 5%;
+    font-size: 200%;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    padding: 2%;
+}
+
+
+aside {
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+table {
+    margin-top: 2%;
+    border: 1px solid;
+    background-color: black;
+}
+
+.content {
+    width: 80%; 
+}
+
+td img {
+    width: 200px;
+}
+
+a img {
+    width: 100%;
+}
+
+.tableOne {
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 2%;
+    background-color: white;
+}
+
+.tableTwo {
+    padding-bottom: 10%;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.colspan {
+    background-color: rgb(101, 212, 198);
+}
+
+.rowspan {
+    background-color: rgb(252, 237, 210);
+}
+
+
+
+.formTwo {
+    border: 2px solid black;
+    padding: 2%;
+    padding: 2%; 
+    margin-right: 60%; 
+}
+
+
+div {
+    margin-left: 8%;
+}
+
+h1 {
+    font-size: 200%;
+    margin: 2%;
+}
+
+p {
+    margin: 3%;
+}
+
+.soc {
+    width: 4%;
+    float: left;
+}
+
+
+.blue {
+    color: blue;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.blueText {
+    background-color: aqua;
+}
+
+i {
+    font-size: 32px;
+}
+
+.yellowAndGrey {
+    background-color: yellow;
+    text-align: right;
+}
+
+.yellow {
+    text-decoration: underline;
+}
+
+.grey {
+    background-color: gray;
+}
+
+.Windu {
+    color: blueviolet;
+}
+
+.WinduBack {
+    font-size: 26px;
+    background-color: blueviolet;
+}
+
+.greyText {
+    background-color: gray;
+}
+
+table.workThree {
+    background-color: white;
+    width: auto;
+}
+
+.fieldOne {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fieldTwo {
+    color: white;
+    background-color: black;
+}
+
+.fieldThree {
+    color: blue;
+    background-color: cyan;
+}
+
+.fieldFour {
+    background-color: darksalmon;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.fieldFive {
+    background-color: yellow;
+    letter-spacing: 5px;
+}
+
+.blueChild td:nth-of-type(2n-1) {
+    color: blue;
+}
+
+i.blue {
+    letter-spacing: normal;
+    font-size: 18px;
+    color: blue;
+    font-style: italic;
+}
+
+i.red {
+    font-size: 18px;
+    color: red;
+    font-style: italic;
+}
+
+.right {
+    text-align: right;
+    font-weight: bold;
+}
+
+.math {
+    font-size: 20px;
+    color: blue;
+    font-style: italic;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+input[type = "text"]{
+    text-align: center;
+}
+
+form2
+{
+    padding: 10px;
+}
+div2 {
+    display: block;
+    margin-left: 40%;
+}
+#generate {
+    border-radius: 2px;
+    border-color: blue;
+    width: 35%;
+    margin-left: 10px;
+    border-width: 1px;
+}
+#Answer {
+    border-radius: 2px;
+    border-color: blue;
+    width: 35%;
+    margin-left: 10px;
+    border-width: 1px;
+}
+
+label{
+    padding-right: 5px;
+    display: block;
+}
+
+
+form{
+    border: 2px solid ;
+    padding: 10px;
+    width: 30%;
+    margin-left: 2%;
+}
